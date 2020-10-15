@@ -31,7 +31,7 @@ const questions = [{
     type: "list",
     name: "lisence",
     message: "Enter Lisence:",
-    choices: ["APACHE 2.0", "BSD 3", "GPL 3.0", "MIT", "Unlisence", "None"]
+    choices: ["MIT", "ODC_BY", "Unlisence"]
 },{
     type: "input",
     name: "gitHub",
@@ -45,6 +45,7 @@ const questions = [{
 // function to write README file
 function writeToFile(content) {
     fs.writeFileSync("ReadMe.md", content);
+    console.log("New ReadMe.md Created");
 }
 
 // function to initialize program
