@@ -2,13 +2,13 @@
 ![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)
 
 # Table of Contents
-[Description](#Description)
-[Installation](#Installation)
-[Usage](#Usage)
-[License](#License)
-[Contribution](#Contribution)
-[Tests](#Tests)
-[Questions](#Questions)
+* [Description](#Description)
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [License](#License)
+* [Contribution](#Contribution)
+* [Tests](#Tests)
+* [Questions](#Questions)
 
 # Description
 A ReadMe generator for developers designed to be run in the command line with the Node.js runtime.
