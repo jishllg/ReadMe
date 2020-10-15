@@ -45,7 +45,7 @@ const questions = [{
 // function to write README file
 function writeToFile(content) {
     fs.writeFileSync("./new/ReadMe.md", content);
-    console.log("New ReadMe.md Created");
+    console.log("New ReadMe.md created in the New folder.");
 }
 
 // function to initialize program
