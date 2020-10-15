@@ -29,9 +29,9 @@ const questions = [{
     message: "Enter testing instructions:"
 },{
     type: "list",
-    name: "lisence",
-    message: "Enter Lisence:",
-    choices: ["MIT", "ODC_BY", "Unlisence"]
+    name: "license",
+    message: "Enter license:",
+    choices: ["MIT", "ODC_BY", "Unlicense"]
 },{
     type: "input",
     name: "gitHub",
@@ -44,7 +44,7 @@ const questions = [{
 
 // function to write README file
 function writeToFile(content) {
-    fs.writeFileSync("ReadMe.md", content);
+    fs.writeFileSync("./new/ReadMe.md", content);
     console.log("New ReadMe.md Created");
 }
 
