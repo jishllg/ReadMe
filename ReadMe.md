@@ -17,7 +17,7 @@ A ReadMe generator for developers designed to be run in the command line with th
 To install the necessary packages, type `npm i` into your console before using this program.
 
 # Usage
-To run this program, simply use the command `node index` to run it.
+To run this program, simply use the command `node index` to run it. A video walkthrough can be found [here](https://drive.google.com/file/d/1S1x3T3Svp73PgAr1HvDReUixD6ILTGBo/view).
 
 # License
 This sofware is published under the MIT license.
